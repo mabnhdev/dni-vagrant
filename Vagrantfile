@@ -70,6 +70,7 @@ Vagrant.configure("2") do |config|
     apt update
 	apt -y upgrade
 	apt -y dist-upgrade
+	apt autoremove -s
 	snap install --edge ubuntu-core
 	snap install --edge --devmode ubuntu-image
 	apt install -y build-essential bzr snapcraft libssl-dev bc git kpartx
