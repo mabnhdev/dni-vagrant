@@ -12,6 +12,8 @@ Use the vagrant file to create a vagrant image based on Ubuntu-Core (Xenial).
 
 * Building a custom Ubuntu-Core ONIE NOS Installer for DNI L9032NXB.
   * cd /home/vagrant/DNI/dni-snappy
+  * snapcraft login
+   * enter your Ubuntu One credentials 
   * snapcraft clean && snapcraft
   * When you are prompted to build the driver...
   * Open a second ssh session to the vagrant image.
